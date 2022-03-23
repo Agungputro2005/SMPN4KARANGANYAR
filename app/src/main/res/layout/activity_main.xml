@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="@drawable/agungsuwarno" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="80dp"
+        android:src="@drawable/protocolcovid" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/putro">
+
+                <ImageView
+                    android:id="@+id/gbr1"
+                    android:layout_width="150dp"
+                    android:layout_height="125dp"
+                    android:paddingTop="0dp"
+                    android:paddingBottom="25dp"
+                    android:src="@drawable/kepalasekolah" />
+
+                <TextView
+                    android:id="@+id/profil"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignLeft="@+id/gbr1"
+                    android:layout_alignTop="@+id/gbr1"
+                    android:layout_alignRight="@+id/gbr1"
+                    android:layout_alignBottom="@+id/gbr1"
+                    android:layout_marginTop="95dp"
+                    android:gravity="center"
+                    android:text="PROFIL"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/putro">
+
+                <ImageView
+                    android:id="@+id/gbr2"
+                    android:layout_width="145dp"
+                    android:layout_height="125dp"
+                    android:paddingBottom="30dp"
+                    android:src="@drawable/galeri" />
+
+                <TextView
+                    android:id="@+id/galeri"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignLeft="@+id/gbr2"
+                    android:layout_alignTop="@+id/gbr2"
+                    android:layout_alignRight="@+id/gbr2"
+                    android:layout_alignBottom="@+id/gbr2"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center"
+                    android:text="GALERI"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/putro">
+
+                <ImageView
+                    android:id="@+id/gbrextra"
+                    android:layout_width="145dp"
+                    android:layout_height="125dp"
+                    android:paddingBottom="25dp"
+                    android:src="@drawable/extracurricular" />
+
+                <TextView
+                    android:id="@+id/ekstrakulikuler"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignLeft="@+id/gbrextra"
+                    android:layout_alignTop="@+id/gbrextra"
+                    android:layout_alignRight="@+id/gbrextra"
+                    android:layout_alignBottom="@+id/gbrextra"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center"
+                    android:text="Ekstrakulikuler"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/ll1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/putro">
+
+                <ImageView
+                    android:id="@+id/gbr3"
+                    android:layout_width="150dp"
+                    android:layout_height="125dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="25dp"
+                    android:src="@drawable/gurudanstaf" />
+
+                <TextView
+                    android:id="@+id/gurudanstaf"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignLeft="@+id/gbr3"
+                    android:layout_alignTop="@+id/gbr3"
+                    android:layout_alignRight="@+id/gbr3"
+                    android:layout_alignBottom="@+id/gbr3"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center"
+                    android:text="GURU DAN STAF"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/putro">
+
+                <ImageView
+                    android:id="@+id/gbr4"
+                    android:layout_width="145dp"
+                    android:layout_height="125dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="29dp"
+                    android:src="@drawable/aulasekolah" />
+
+                <TextView
+                    android:id="@+id/fasilitas"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignLeft="@+id/gbr4"
+                    android:layout_alignTop="@+id/gbr4"
+                    android:layout_alignRight="@+id/gbr4"
+                    android:layout_alignBottom="@+id/gbr4"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center"
+                    android:text="FASILITAS"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/putro">
+
+                <ImageView
+                    android:id="@+id/gbr5"
+                    android:layout_width="145dp"
+                    android:layout_height="125dp"
+                    android:paddingBottom="29dp"
+                    android:src="@drawable/perpustakaan" />
+
+                <TextView
+                    android:id="@+id/myImageViewText"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignLeft="@+id/gbr5"
+                    android:layout_alignTop="@+id/gbr5"
+                    android:layout_alignRight="@+id/gbr5"
+                    android:layout_alignBottom="@+id/gbr5"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center"
+                    android:text="E-PERPUS"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".menuactivity">
+
+
+    <ImageView
+        android:id="@+id/paskibra"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/paskibra" />
+
+    <TextView
+        android:id="@+id/gbpaskibra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gbr1"
+        android:layout_alignTop="@+id/gbr1"
+        android:layout_alignRight="@+id/gbr1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@id/iv_menu"
+        android:text="PASKIBRA"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <ImageView
+        android:id="@+id/osis"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/osis" />
+    <TextView
+        android:id="@+id/gbosis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gbr1"
+        android:layout_alignTop="@+id/gbr1"
+        android:layout_alignRight="@+id/gbr1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@id/iv_menu"
+        android:text="OSIS"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+    <ImageView
+        android:id="@+id/pmr"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="350dp"
+        android:src="@drawable/pmr" />
+    <TextView
+        android:id="@+id/gbrpmr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gbr1"
+        android:layout_alignTop="@+id/gbr1"
+        android:layout_alignRight="@+id/gbr1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@id/iv_menu"
+        android:text="PMR"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+    <ImageView
+        android:id="@+id/iv_menu"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="550dp"
+        android:src="@drawable/dewanpenggalang" />
+    <TextView
+        android:id="@+id/myImageViewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/iv_menu"
+        android:layout_alignTop="@+id/iv_menu"
+        android:layout_alignRight="@id/iv_menu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@id/iv_menu"
+        android:text="DEWAN PENGGALANG"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+
+
+</RelativeLayout>

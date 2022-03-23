@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menuactivity"
+    android:background="#FBFBF9">
+
+    <ImageView
+        android:id="@+id/iv_menu"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/kepalasekolah"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/myImageViewText"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_alignLeft="@+id/iv_menu"
+        android:layout_alignTop="@+id/iv_menu"
+        android:layout_alignRight="@+id/iv_menu"
+        android:layout_alignBottom="@+id/iv_menu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="Kepala Sekolah"
+        android:textColor="#000000" />
+    <TextView
+        android:id="@+id/tulisan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="210dp"
+        android:paddingTop="20dp"
+        android:text="VISI DAN MISI SEKOLAH"
+        android:textColor="@color/black"
+        android:typeface="monospace" />
+    <TextView
+        android:id="@+id/tataletak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="230dp"
+        android:paddingTop="20dp"
+        android:text="TATA LETAK RUANGAN SEKOLAH"
+        android:textColor="@color/black"
+        android:typeface="monospace" />
+
+</RelativeLayout>
+
+
+
+
+
+
