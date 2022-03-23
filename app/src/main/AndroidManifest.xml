@@ -13,6 +13,24 @@
             android:name=".MainActivity">
 
         </activity>
+        <activity
+            android:name=".ekstrakulikuleractivity">
+        </activity>
+        <activity android:name=".provil">
+
+        </activity>
+        <activity android:name=".fasilitasactivity">
+
+        </activity>
+    <activity android:name=".guruaktivity">
+
+    </activity>
+        <activity android:name=".galeriactivity">
+
+        </activity>
+
+
+
         <activity android:name=".MenuActivity"
             android:exported="true">
             <intent-filter>

@@ -43,6 +43,7 @@
                     android:id="@+id/gbr1"
                     android:layout_width="150dp"
                     android:layout_height="125dp"
+                    android:onClick="profilclick"
                     android:paddingTop="0dp"
                     android:paddingBottom="25dp"
                     android:src="@drawable/kepalasekolah" />
@@ -73,6 +74,7 @@
                     android:id="@+id/gbr2"
                     android:layout_width="145dp"
                     android:layout_height="125dp"
+                    android:onClick="galericlick"
                     android:paddingBottom="30dp"
                     android:src="@drawable/galeri" />
 
@@ -102,6 +104,7 @@
                     android:id="@+id/gbrextra"
                     android:layout_width="145dp"
                     android:layout_height="125dp"
+                    android:onClick="ekstrakulikulerclick"
                     android:paddingBottom="25dp"
                     android:src="@drawable/extracurricular" />
 
@@ -141,6 +144,7 @@
                     android:id="@+id/gbr3"
                     android:layout_width="150dp"
                     android:layout_height="125dp"
+                    android:onClick="guruclick"
                     android:paddingTop="15dp"
                     android:paddingBottom="25dp"
                     android:src="@drawable/gurudanstaf" />
@@ -171,6 +175,7 @@
                     android:id="@+id/gbr4"
                     android:layout_width="145dp"
                     android:layout_height="125dp"
+                    android:onClick="fasilitasclick"
                     android:paddingTop="10dp"
                     android:paddingBottom="29dp"
                     android:src="@drawable/aulasekolah" />
@@ -190,34 +195,7 @@
                     android:textStyle="bold" />
             </RelativeLayout>
 
-            <RelativeLayout
-                android:layout_width="wrap_content"
 
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="25dp"
-                android:background="@drawable/putro">
-
-                <ImageView
-                    android:id="@+id/gbr5"
-                    android:layout_width="145dp"
-                    android:layout_height="125dp"
-                    android:paddingBottom="29dp"
-                    android:src="@drawable/perpustakaan" />
-
-                <TextView
-                    android:id="@+id/myImageViewText"
-                    android:layout_width="64dp"
-                    android:layout_height="23dp"
-                    android:layout_alignLeft="@+id/gbr5"
-                    android:layout_alignTop="@+id/gbr5"
-                    android:layout_alignRight="@+id/gbr5"
-                    android:layout_alignBottom="@+id/gbr5"
-                    android:layout_marginTop="90dp"
-                    android:gravity="center"
-                    android:text="E-PERPUS"
-                    android:textColor="#000000"
-                    android:textStyle="bold" />
-            </RelativeLayout>
         </LinearLayout>
     </RelativeLayout>
 </RelativeLayout>

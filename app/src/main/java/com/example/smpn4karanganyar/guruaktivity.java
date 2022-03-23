@@ -2,13 +2,14 @@ package com.example.smpn4karanganyar;
 
 import android.os.Bundle;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class GaleriActivity extends AppCompatActivity {
-
+public class guruaktivity extends AppCompatActivity {
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.gurudanstaf);
+
     }
+
 }

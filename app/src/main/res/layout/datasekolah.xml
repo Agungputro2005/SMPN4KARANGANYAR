@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".menuactivity"
+    tools:context=".MainActivity"
     android:background="#FBFBF9">
 
     <ImageView
@@ -31,7 +31,6 @@
         android:id="@+id/tulisan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/text1"
         android:layout_marginTop="210dp"
         android:paddingTop="20dp"
         android:text="VISI DAN MISI SEKOLAH"
@@ -41,7 +40,7 @@
         android:id="@+id/tataletak"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/text1"
+        android:layout_below="@+id/tulisan"
         android:layout_marginTop="230dp"
         android:paddingTop="20dp"
         android:text="TATA LETAK RUANGAN SEKOLAH"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    tools:context=".menuactivity">
+    tools:context=".MainActivity">
 
 
     <ImageView
@@ -85,20 +85,20 @@
         android:layout_marginTop="550dp"
         android:src="@drawable/dewanpenggalang" />
     <TextView
-        android:id="@+id/myImageViewText"
+        android:id="@+id/gbrextra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/iv_menu"
-        android:layout_alignTop="@+id/iv_menu"
-        android:layout_alignRight="@id/iv_menu"
+        android:layout_alignLeft="@+id/gbr1"
+        android:layout_alignTop="@+id/gbr1"
+        android:layout_alignRight="@+id/gbr1"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="100dp"
         android:layout_marginTop="600dp"
         android:layout_marginEnd="0dp"
         android:layout_toEndOf="@id/iv_menu"
-        android:text="DEWAN PENGGALANG"
+        android:text="DEWANPENGGALANG"
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         android:typeface="monospace" />
 
