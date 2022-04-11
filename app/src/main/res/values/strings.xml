@@ -41,4 +41,14 @@
     <string name="bhsinggris">Nama : Dra. Eka Asri ASRD\nNIP : 1968112320xxxxxxxx\nGol : IV/a\nMapel : Bhs. Inggris\nTugas : Guru</string>
     <string name="ipstiga">Nama : Anik H, S.Pd, M.Pd\nNIP : 1972011120xxxxxxxx\nGol : III/d\nMapel : IPS\nTugas : Guru</string>
     <string name="senibudaya">Nama : Trubus S, S.Sn\nNIP : 1975092520xxxxxxxx\nGol : III/d\nMapel : Seni Budaya\nTugas : Guru</string>
+    <string name="ipsempat">Nama : Sri Suryaningsih, S.Pd\nNIP : 1973080120xxxxxxxx\nGol : III/d\nMapel : IPS\nTugas : Guru</string>
+    <string name="bhsindolima">Nama : Dra. Sri Pramesti\nNIP : 1970022320xxxxxxxx\nGol : III/c\nMapel : Bhs. Indonesia\nTugas : Guru</string>
+    <string name="bhsindoenam">Nama : Karlina W, S.Pd\nNIP : 1965062820xxxxxxxx\nGol : III/c\nMapel : Bhs. Indonesia\nTugas : Guru</string>
+    <string name="ppkntiga">Nama : Umi Barokatun, S.Pd\nNIP : 1968022020xxxxxxxx\nGol : III/c\nMapel : PPKn\nTugas : Guru</string>
+    <string name="bhsinggrisdua">Nama : Surip Wijiyati, S.Pd\nNIP : 1973030420xxxxxxxx\nGol : III/c\nMapel : Bhs. Inggris\nTugas : Guru</string>
+    <string name="gurukristen">Nama : Sih Sarwanti, S.Th\nNIP : 1966062720xxxxxxxx\nGol : III/c\nMapel : Pend. Agama Kristen\nTugas : Guru</string>
+    <string name="ipalima">Nama : Prapti H, S.Pd\nNIP : 1977050520xxxxxxxx\nGol : III/c\nMapel : IPA\nTugas : Guru, Kep. Perpust</string>
+    <string name="matematikalima">Nama : Didik WK, S.Pd, M.Pd\nNIP : 1979052720xxxxxxxx\nGol : III/c\nMapel : Matematika\nTugas : Guru</string>
+    <string name="prakaryatiga">Nama : Endah Aryanti, S.Pd\nNIP : 1978083020xxxxxxxx\nGol : III/c\nMapel : Prakarya\nTugas : Guru</string>
+    <string name="senibudayadua">Nama : Indri Nuraini, S.Sn\nNIP : 1981012920xxxxxxxx\nGol : III/b\nMapel : Seni Budaya\nTugas : Guru</string>
 </resources>
