@@ -9,4 +9,4 @@ import android.os.Bundle;
             super.onCreate(savedInstanceState);
             setContentView(R.layout.datasekolah);
         }
-}
+    }

@@ -8,6 +8,6 @@ public class fasilitasactivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fasilitas);
+        setContentView(R.layout.fasalitas);
     }
 }

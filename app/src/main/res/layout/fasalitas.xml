@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MenuActivity"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:id="@+id/iv_menu"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/masjidsmp" />
+
+    <TextView
+        android:id="@+id/upacara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@id/iv_menu"
+        android:text="Masjid"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/perpustakaan2" />
+    <TextView
+        android:id="@+id/pramuka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@id/iv_menu"
+        android:text="Perpustakaan"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/labkomputer"
+        android:layout_marginTop="350dp" />
+
+    <TextView
+        android:id="@+id/lomba17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@id/iv_menu"
+        android:text="Lab Komputer"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/labipa"
+        android:layout_marginTop="550dp" />
+    <TextView
+        android:id="@+id/hariKartini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@id/iv_menu"
+        android:text="Lab IPA"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+
+
+
+</RelativeLayout>

@@ -7,13 +7,13 @@
     <View
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/black"/>
+        android:background="@color/white"/>
     <ImageView
         android:id="@+id/iv_menu"
-        android:layout_width="225dp"
-        android:layout_height="225dp"
+        android:layout_width="235dp"
+        android:layout_height="235dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/aulasekolah"/>
+        android:src="@drawable/logosmp"/>
 
 
 </RelativeLayout>
