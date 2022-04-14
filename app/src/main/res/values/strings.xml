@@ -51,4 +51,134 @@
     <string name="matematikalima">Nama : Didik WK, S.Pd, M.Pd\nNIP : 1979052720xxxxxxxx\nGol : III/c\nMapel : Matematika\nTugas : Guru</string>
     <string name="prakaryatiga">Nama : Endah Aryanti, S.Pd\nNIP : 1978083020xxxxxxxx\nGol : III/c\nMapel : Prakarya\nTugas : Guru</string>
     <string name="senibudayadua">Nama : Indri Nuraini, S.Sn\nNIP : 1981012920xxxxxxxx\nGol : III/b\nMapel : Seni Budaya\nTugas : Guru</string>
-</resources>
+    <string name="ptgsperpus">Nama : Rindi Apriani\nNIP : -\nGol : -\nTMT : 01/09/2016\nJab. : Ptg. Perpustakaan</string>
+    <string name="olahragaempat">Nama : Tumini, S.Pd\nNIP : 1977021920xxxxxxxx\nGol : III/a\nMapel : Penjas Orkes\nTugas : Guru</string>
+    <string name="bhsinggristiga">Nama : Andi O. Mabete, S.Pd\nNIP : 1984101420xxxxxxxx\nGol : III/b\nMapel : Bhs. Inggris\nTugas : Guru</string>
+    <string name="agamadua">Nama : Adityo Eko K, S.Pd.I.\nNIP : -\nGol : -\nMapel : Pend. Agama Islam\nTugas : Guru</string>
+    <string name="katolik">Nama :Y. Siswanti Puji R\nNIP :1965051520xxxxxxxx\nGol :III/b\nMapel :P. Agama Katholik\nTugas :Guru</string>
+    <string name="hindu">Nama :Gayatri Sindi Mahesti\nNIP :-\nGol :-\nMapel :Pend. Agama Hindu\nTugas :Guru</string>
+    <string name="tujuanpmr">Tujuan Kegiatan:\nMenjadi Wadah Remaja PMI\nMendidik Calon Relawan Masa Depan\nMempersiapkan Calon PMI\nMengajarkan Hidup Sehat\nMelatih Jiwa Kemanusiaan\nMemberi Pertolongan Pertama Di Tingkat Sekolah\nMelatih Keterampilan\nMelatih Kedisiplinan\nMengajarkan Ilmu Kesehatan</string>
+    <string name="pelaksanaa">Waktu Kegiatan\nHari : Senin\nJam : 15.00 - 17.00 WIB</string>
+    <string name="pelaksanapramuka">Waktu Pelaksanaan Kegiatan\nHari : Jum\'at dan Sabtu\nJam : 15.00 – 17.00 WIB</string>
+    <string name="tujuanbasket">Tujuan Kegiatan:\nMemberikan kesempatan pada siswa untuk mengembangkan bakat dan minat pada Bola Basket.\nMemberikan pembinaan pada siswa untuk menjadi pemain Basket yang berkualitas.\nMelatih disiplin, kerjasama tim, bertindak cepat dan terorganisir.</string>
+    <string name="pelaksanabasket">Pelaksanaan Kegiatan\nHari : Selasa dan Kamis\nJam : 14.00 - 16.00 WIB</string>
+    <string name="Masjid">MASJID\nIbadah adalah kebutuhan dasar setiap kaum muslim dan seiring dengan bertambahnya jumlah siswa/siswi yang sebagian besar beragama Islam berimbas pada kebutuhan sarana ibadah berupa Masjid.</string>
+    <string name="perpustakaan">PERPUSTAKAAN\nFasilitas ruang perpustakaan siswa,meja dan kursi layanan,meja dan kursi baca,serta seperangkattempat dan alat produksi bahan pustaka.</string>
+    <string name="labkomputer">LAB KOMPUTER\nLab. Komputer merupakan fasilitas yang disediakan oleh sekolah yang berfungsi untuk menunjang terlaksananya Proses Belajar Mengajar (PBM). Komputer Sekolah, bukan hanya untuk sekedar pelengkap PBM atau bukan hanya untuk sekedar Update Status Facebook maupun Twitter bisa juga berfungsi untuk siswa siswi kelas IX bisa digunakan sebagai UNBK atau Ujian yang lain menggunakan komputer."</string>
+    <string name="komputer">LAB KOMPUTER\nLab. Komputer merupakan fasilitas yang disediakan oleh sekolah yang berfungsi untuk menunjang terlaksananya Proses Belajar Mengajar (PBM). Komputer Sekolah, bukan hanya untuk sekedar pelengkap PBM atau bukan hanya untuk sekedar Update Status Facebook maupun Twitter bisa juga berfungsi untuk siswa siswi kelas IX bisa digunakan sebagai UNBK atau Ujian yang lain menggunakan komputer.</string>
+    <string name="labipa">LAB IPA\nLaboratorium SMPN 4 KARANGANYAR terdiri dari Lab Fisika,Kimia dan Biologi,masing-masing terdiri dari dua lokal digunakan kegiatan PBM sekaligus praktikum untuk siswa.</string>
+    <string name="upacara">Upacara Bendera\nUpacara bendera merupakan salah satu kegiatan penting yang sering dilakukan di sekolah. Umumnya, upacara bendera dilaksanakan pada hari Senin dan hari-hari tertentu, seperti peringatan Hari Kemerdekaan Indonesia. Meskipun sudah sering dilakukan, namun tidak sedikit pelajar yang belum mengerti tujuan upacara bendera itu sendiri. Salah satu poin penting tujuan upacara bendera ialah menumbuhkan rasa nasionalisme anak bangsa. Nasionalisme merupakan jiwa bangsa Indonesia yang harus melekat selama negara ini masih berdiri. Oleh karena itu, upacara bendera menjadi salah satu kegiatan penting untuk membentuk karakter bangsa.</string>
+    <!--    <string-array name="extra">-->
+<!--        <item>OSIS</item>-->
+<!--        <item>PMR</item>-->
+<!--        <item>PRAMUKA</item>-->
+<!--        <item>BASKET</item>-->
+<!--        <item>KARAWITAN</item>-->
+<!--        <item>VOLLY</item>-->
+<!--        <item>BTA</item>-->
+<!--    </string-array>-->
+<!--    <string-array name="pengertian">-->
+<!--        <item>OSIS adalah satu-satunya wadah organisasi siswa yang sah di sekolah. Oleh karena itu, setiap sekolah wajib membentuk Organisasi Siswa Intra Sekolah (OSIS) yang tidak mempunyai hubungan organisatoris dengan OSIS di sekolah lain dan tidak menjadi bagian dari organisasi lain yang ada di luar sekolah.</item>-->
+<!--        <item>Palang Merah Remaja (PMR) adalah suatu organisasi binaan dari Palang Merah Indonesia yang berpusat di sekolah-sekolah ataupun kelompok-kelompok masyarakat yang bertujuan membangun dan mengembangkan karakter Kepalangmerahan agar siap menjadi Relawan PMI pada masa depan.-->
+<!--            PMR di SMP Negeri 4 Karanganyar termasuk dalam tingkat madya berusia antara 12 - 15 tahun. PMR Madya berfungsi sebagai peer support, yaitu memberikan dukungan, bantuan, semangat kepada teman sebaya agar meningkatkan ketrampilan hidup sehat.</item>-->
+<!--    <item>Untuk mencapai tujuan tersebut, dilakukan kegiatan-kegiatan di lingkungan sekolah (intramural) dan di luar sekolah (ekstramural) sebagai upaya memperkuat proses pembentukan karakter bangsa yang berbudi pekerti luhur sesuai dengan nilai dan moral Pancasila.-->
+<!--        Pendidikan Kepramukaan dinilai sangat penting, karena akan menumbuhkan rasa memiliki, saling tolong menolong, mencintai tanah air dan alam. Karenanya Kementerian Pendidikan dan Kebudayaan mewajibkan setiap sekolah melaksanakan ekstrakurikuler pendidikan kepramukaan.</item>-->
+<!--    <item>Di lingkungan satuan pendidikan atau sekolah, ekstra kurikuler Bola Basket selalu menjadi primadona bagi siswa. SMP Negeri 4 Karanganyar merespon fenomena ini dengan menyelenggarakan kegiatan ekstra kurikuler Bola Basket untuk mengembangkan bakat dan minat siswanya. Hingga saat ini sudah banyak kejuaraan Bola Basket di tingkat kabupaten yang berhasil diraih oleh tim basket SMP Negeri 4 Karanganyar.-->
+<!--        Hal ini tentu saja tidak lepas dari peran ekstra kurikuler Bola Basket yang dibimbing oleh guru dan pembina berkualitas di SMP Negeri 4 Karanganyar.</item>-->
+<!--        <item>Karawitan adalah salah satu ekstra kurikuler pilihan sebagai sarana untuk mengembangkan bakat dan minat siswa terhadap warisan budaya nasional yang adi luhung. Seni karawitan merupakan salah satu cabang seni yang sangat perlu dikenalkan terhadap siswa, karena akan menambah wawasan siswa terhadap seni tradisional yang pada dewasa ini dirasa agak tergusur oleh seni-seni yang bersifat lebih kontemporer/masakini. Maka dari itu untuk mengenalkan dan memberikan wawasan tentang seni karawitan perlu diadakan kegiatan di luar kegiatan intra sekolah dikarenakan untuk mengembangkan bakat siswa tidak cukup apabila diberikan pada jam pelajaran efektif / intra.</item>-->
+<!--            <item>Ekstrakurikuler Bola Voli merupakan bagian integral dari mata pelajaran Pendidikan Jasmani Olahraga dan Kesehatan. Penyelenggaraan ekstrakurikuler Bola Voli di SMP Negeri 4 Karanganyar bertujuan untuk mengembangkan aspek kebugaran jasmani, keterampilan gerak, berpikir kritis, dan keterampilan sosial.</item>-->
+<!--        <item>SMP Negeri 4 Karanganyar menyelenggarakan kegiatan Baca Tulis Al Qur'an (BTA) sebagai ekstra kurikuler pilihan. Kegiatan ini bermanfaat untuk mengajarkan kepada siswa tentang cara membaca dan menulis Al-Qur’an secara benar, memahami dan mengamalkan Al-Qur’an dalam kehidupan sehari-hari.-->
+
+<!--Melalui kegiatan BTA ini diharapkan siswa dapat membaca Al-Qur’an dengan lancar, baik dan benar sesuai dengan kaidah-kaidah ilmu Tajwid. Bagi siswa yang belum bisa membaca Al Qur'an dapat memanfaatkannya dengan belajar Iqro', mulai jilid 1 sampai jilid 6. Selain itu siswa juga dilatih untuk menghafal ayat-ayat pilihan.</item>-->
+<!--        <item></item>-->
+<!--    </string-array>-->
+<!--    <string-array name="fungsi">-->
+<!--        <item>Fungsi osis OSIS sebagai Wadah Organisasi Siswa Intra Sekolah-->
+<!--OSIS merupakan satu-satunya wadah kegiatan para siswa di sekolah, bersama dengan jalur pembinaan yang lain, untuk mendukung tercapainya pembinaan kesiswaan. OSIS menjadi wadah organisasi bagi para siswa dalam melakukan kegiatan bersama, bertukar ilmu, bertukar pikiran, dan mengeluarkan pendapat untuk mencapai tujuan dan cita-cita bersama.-->
+<!--OSIS sebagai Penggerak/Motivator-->
+<!--OSIS menjadi motivator yang mampu memengaruhi semangat para siswa untuk berbuat dan melakukan kegiatan bersama-sama dalam mencapai tujuan. Motivasi adalah suatu perangsang dan dorongan bagi seseorang agar dapat melakukan sesuatu yang lebih baik dan produktif, sedangkan motivator adalah subjek yang melakukan suatu dorongan tersebut.-->
+<!--OSIS sebagai Pembinaan Siswa-->
+<!--OSIS merupakan jalur pembinaan yang berusaha memberi bekal pengetahuan dan pengalaman kepada siswa untuk memimpin dirinya, orang lain, dan lingkungannya dalam mengikuti kegiatan sekolah dan kehidupan sosial sesuai dengan ketentuan yang telah ditetapkan untuk mencapai keberhasilan pendidikan siswa di sekolah."</item>-->
+<!--    <item>Menjadi Wadah Remaja PMI-->
+<!--Mendidik Calon Relawan Masa Depan-->
+<!--Mempersiapkan Calon PMI-->
+<!--Mengajarkan Hidup Sehat-->
+<!--Melatih Jiwa Kemanusiaan-->
+<!--Memberi Pertolongan Pertama Di Tingkat Sekolah-->
+<!--Melatih Keterampilan-->
+<!--Melatih Kedisiplinan-->
+<!--Mengajarkan Ilmu Kesehatan</item>-->
+<!--        <item>Keimanan dan ketakwaan kepada Tuhan YME-->
+<!--Kecintaan pada alam, sesama manusia, tanah air dan bangsa Indonesia-->
+<!--Disiplin, berani, setia, dan tolong menolong-->
+<!--Bertanggungjawab dan dapat dipercaya-->
+<!--Jernih dalam berpikir, berkata dan berbuat-->
+<!--Hemat, cermat, bersahaja, rajin dan terampil</item>-->
+<!--        <item>Memberikan kesempatan pada siswa untuk mengembangkan bakat dan minat pada Bola Basket.-->
+<!--Memberikan pembinaan pada siswa untuk menjadi pemain Basket yang berkualitas.-->
+<!--Melatih disiplin, kerjasama tim, bertindak cepat dan terorganisir.</item>-->
+<!--        <item>Dengan adanya kegiatan ekstrakurikuler seni karawitan, diharapkan siswa akan lebih memahami dalam mempelajari sekaligus praktek seni karawitan serta lebih leluasa dalam mengembangkan bakat dan minat siswa. SMP Negeri 4 Karanganyar selama ini sudah diakui baik dari dinas pendidikan maupun masyarakat sekitar tentang program-program yang berhubungan dengan kesenian tradisi dan hampir setiap kegiatan kabupaten, SMP Negeri 4 Karanganyar selalu dilibatkan.-->
+
+<!--Dengan melihat sarana dan prasarana yang memadahi (adanya gamelan lengkap dan ruang yang luas) serta kemampuan pengajar yang memiliki latar belakang pendidikan seni, maka kegiatan ekstrakurikuler diharapkan tetap berjalan dengan baik demi kemajuan sekolah dan memberikan ketrampilan serta wawasan pada siswa untuk memahami, mengetahui,dan merasa handarbeni terhadap seni tradisional karawitan.</item>-->
+<!--        <item>Ekstrakurikuler Bola Voli memiliki peran sangat penting, terutama memberikan kesempatan kepada siswa dalam pengembangan diri dan meraih prestasi di bidang non akademik.-->
+
+<!--</item>-->
+<!--        <item></item>-->
+
+<!--    </string-array>-->
+<!--    <string-array name="tujuan">-->
+<!--        <item>Tujuan OSIS-->
+<!--        Meningkatkan generasi penerus yang beriman dan bertakwa.-->
+<!--        Memahami, menghargai lingkungan hidup, dan nilai-nilai moral dalam mengambil keputusan yang tepat.-->
+<!--        Membangun landasan kepribadian yang kuat dan menghargai HAM dalam konteks kemajuan budaya bangsa.-->
+<!--        Membangun, mengembangkan wawasan kebangsaan, dan rasa cinta tanah air dalam era globalisasi.-->
+<!--        Memperdalam sikap sportif, jujur, disiplin, bertanggung jawab, dan kerja sama secara mandiri, berpikir logis dan demokratis.-->
+<!--        Meningkatkan pengetahuan dan keterampilan serta menghargai karya artistik, budaya, dan intelektual.-->
+<!--            Meningkatkan kesehatan jasmani dan rohani, memantapkan kehidupan bermasyarakat, berbangsa, dan bernegara.</item>-->
+<!--        <item>Tujuan Kegiatan-->
+<!--Menjadi Wadah Remaja PMI-->
+<!--Mendidik Calon Relawan Masa Depan-->
+<!--Mempersiapkan Calon PMI-->
+<!--Mengajarkan Hidup Sehat-->
+<!--Melatih Jiwa Kemanusiaan-->
+<!--Memberi Pertolongan Pertama Di Tingkat Sekolah-->
+<!--Melatih Keterampilan-->
+<!--Melatih Kedisiplinan-->
+<!--Mengajarkan Ilmu Kesehatan</item>-->
+<!--        <item>Untuk mencapai tujuan tersebut, dilakukan kegiatan-kegiatan di lingkungan sekolah (intramural) dan di luar sekolah (ekstramural) sebagai upaya memperkuat proses pembentukan karakter bangsa yang berbudi pekerti luhur sesuai dengan nilai dan moral Pancasila. Pendidikan Kepramukaan dinilai sangat penting, karena akan menumbuhkan rasa memiliki, saling tolong menolong, mencintai tanah air dan alam. Karenanya Kementerian Pendidikan dan Kebudayaan mewajibkan setiap sekolah melaksanakan ekstrakurikuler pendidikan kepramukaan.-->
+
+<!--Koherensi proses pembelajaran yang memadukan kegiatan intrakurikuler dan ekstrakurikuler, didasarkan pada dua alasan dalam menjadikan Pendidikan Kepramukaan sebagai Ekstrakurikuler Wajib.-->
+
+<!--Pertama, dasar legalitasnya jelas yaitu Undang-Undang (UU) Nomor 12 Tahun 2010 tentang Gerakan Pramuka.-->
+
+<!--Kedua, pendidikan kepramukaan mengajarkan banyak nilai-nilai, mulai dari nilai Ketuhanan, kebudayaan, kepemimpinan, kebersamaan, sosial, kecintaan alam, hingga kemandirian.</item>-->
+<!--        <item>Tujuan Kegiatan-->
+<!--Memberikan kesempatan pada siswa untuk mengembangkan bakat dan minat pada Bola Basket.-->
+<!--Memberikan pembinaan pada siswa untuk menjadi pemain Basket yang berkualitas.-->
+<!--Melatih disiplin, kerjasama tim, bertindak cepat dan terorganisir.-->
+<!--Materi Kegiatan</item>-->
+<!--        <item>Tujuan Kegiatan-->
+<!--Memberikan pelatihan pada siswa agar dapat melakukan berbagai praktik karawitan sehingga dapat menambah ketrampilan dalam berolah seni karawitan.-->
+<!--Memberikan kesempatan pada siswa mengembangkan kreatifitas dibidang seni karawitan.-->
+<!--Memberikan pembinaan pada siswa untuk menumbuhkan rasa cinta, dan merasa memiliki terhadap seni tradisi.</item>-->
+<!--        <item>Tujuan Kegiatan-->
+<!--Menyiapkan atlet berprestasi di tingkat kabupaten.-->
+<!--Meningkatkan prestasi siswa melalui ekstrakurikuler Bola Voli.-->
+<!--Mengikuti pertandingan antar pelajar tingkat kabupaten.-->
+<!--Sebagai wadah bagi siswa untuk mengasah bakat.-->
+<!--Sarana pengembangan diri dan prestasi non akademik.</item>-->
+<!--            <item>Tujuan Kegiatan-->
+<!--Memberi pengetahuan kepada siswa/siswi SMP Negeri 4 Karanganyar untuk memiliki pengetahuan dan kemampuan membaca huruf arab yang meliputi bacaan dalam Iqro’, Juz’amma dan Al Qur’an 30 juz.-->
+<!--Agar siswa/siswi SMP Negeri 4 Karanganyar mampu dan mau membaca dengan benar serta fasih sesuai dengan makhroj dan tajwid.-->
+<!--Memberi kegiatan yang positif kepada siswa/siswi SMP Negeri 4 Karanganyar tentang pengetahuan baca / tulis huruf Al Qur’an.</item>-->
+<!--    </string-array>-->
+<!--    <string-array name="Waktu_Pelaksana">-->
+<!--    <item>Hari:Selasa,Jam:11.15-13.00</item>-->
+<!--        <item>Hari:Senin,Jam:15.00-17.00 WIB</item>-->
+<!--        <item>Hari : Jum'at dan Sabtu,Jam:15.00–17.00WIB</item>-->
+<!--        <item>Hari : Selasa dan Kamis,Jam:14.00-16.00WIB</item>-->
+<!--        <item>Hari:Kamis,Jam:13.30 – 15.00</item>-->
+<!--        <item>Hari : Senin dan Rabu,Jam : 14.00 - 16.00 WIB</item>-->
+<!--        <item>Hari : Senin,Jam : 13.30 – 14.30 WIB-->
+<!--</item>-->
+<!--    </string-array>--></resources>

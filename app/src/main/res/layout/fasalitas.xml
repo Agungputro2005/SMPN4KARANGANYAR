@@ -1,95 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
-    tools:context=".MenuActivity"
-    android:background="@color/white">
-
-
-    <ImageView
-        android:id="@+id/iv_menu"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@drawable/masjidsmp" />
-
-    <TextView
-        android:id="@+id/upacara"
-        android:layout_width="wrap_content"
+    tools:context=".MainActivity">
+    <GridLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="90dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="0dp"
-        android:layout_toEndOf="@id/iv_menu"
-        android:text="Masjid"
-        android:textColor="#000000"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:typeface="monospace" />
+        android:layout_gravity="center_horizontal"
+        android:columnCount="1"
+        android:columnOrderPreserved="false"
+        android:rowCount="60">
 
-    <ImageView
-        android:layout_width="200dp"
+
+        <ImageView
+            android:id="@+id/iv_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/masjidsmp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:id="@+id/osissatu"
+            android:background="@drawable/bakron">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Masjid"
+            android:typeface="serif"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:id="@+id/text1"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+        </LinearLayout>
+
+
+        <ImageView
+        android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="9dp"
         android:src="@drawable/perpustakaan2" />
-    <TextView
-        android:id="@+id/pramuka"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="90dp"
-        android:layout_marginTop="250dp"
-        android:layout_marginEnd="0dp"
-        android:layout_toEndOf="@id/iv_menu"
-        android:text="Perpustakaan"
-        android:textColor="#000000"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:typeface="monospace" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:id="@+id/perpus"
+            android:background="@drawable/bakron">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/perpustakaan"
+                android:typeface="serif"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:id="@+id/text2"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
     <ImageView
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
         android:src="@drawable/labkomputer"
-        android:layout_marginTop="350dp" />
+        android:layout_marginTop="9dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:id="@+id/labkomputer"
+            android:background="@drawable/bakron">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/komputer"
+                android:typeface="serif"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:id="@+id/text4"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
 
-    <TextView
-        android:id="@+id/lomba17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="90dp"
-        android:layout_marginTop="430dp"
-        android:layout_marginEnd="0dp"
-        android:layout_toEndOf="@id/iv_menu"
-        android:text="Lab Komputer"
-        android:textColor="#000000"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:typeface="monospace" />
+        </LinearLayout>
+
     <ImageView
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
         android:src="@drawable/labipa"
-        android:layout_marginTop="550dp" />
-    <TextView
-        android:id="@+id/hariKartini"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="90dp"
-        android:layout_marginTop="620dp"
-        android:layout_marginEnd="0dp"
-        android:layout_toEndOf="@id/iv_menu"
-        android:text="Lab IPA"
-        android:textColor="#000000"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:typeface="monospace" />
+        android:layout_marginTop="9dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:id="@+id/labipa"
+            android:background="@drawable/bakron">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/labipa"
+                android:typeface="serif"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:id="@+id/text5"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
 
 
 
 
-</RelativeLayout>
+
+
+    </GridLayout>
+</ScrollView>
+

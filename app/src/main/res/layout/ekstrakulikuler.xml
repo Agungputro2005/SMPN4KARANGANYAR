@@ -5,9 +5,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    tools:context=".ekstrakulikuleractivity">
     <LinearLayout
+        android:layout_marginTop="2dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -15,11 +17,13 @@
         android:layout_width="match_parent"
         android:layout_height="180dp"
         android:orientation="horizontal"
+        android:id="@+id/osissatu"
         android:background="@drawable/bakron">
         <ImageView
             android:id="@+id/osis"
             android:layout_width="180dp"
             android:layout_height="150dp"
+            android:layout_marginTop="10dp"
             android:src="@drawable/osis" />
 
         <TextView
@@ -33,16 +37,20 @@
             android:textStyle="bold"
             android:typeface="monospace" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="180dp"
+        android:id="@+id/pmr"
+        android:orientation="horizontal"
+        android:background="@drawable/bakron">
         <ImageView
-
             android:layout_width="180dp"
             android:layout_height="150dp"
             android:layout_marginTop="20dp"
-            android:src="@drawable/pmr" />
+            android:onClick="pmrclick"
+            android:src="@drawable/pmr"
+            tools:ignore="OnClick" />
 
         <TextView
 
@@ -59,12 +67,16 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:id="@+id/pramuka"
+        android:background="@drawable/bakron">
         <ImageView
             android:layout_width="180dp"
             android:layout_height="150dp"
             android:layout_marginTop="20dp"
-            android:src="@drawable/dewanpenggalang" />
+            android:onClick="pramukaclick"
+            android:src="@drawable/dewanpenggalang"
+            tools:ignore="OnClick" />
 
         <TextView
             android:layout_width="match_parent"
@@ -79,61 +91,96 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:id="@+id/basket"
+        android:background="@drawable/bakron">
         <ImageView
             android:layout_width="180dp"
-            android:layout_height="150dp"
+            android:layout_height="130dp"
             android:layout_marginTop="20dp"
-            android:src="@drawable/futsal" />
+            android:onClick="basketclick"
+            android:src="@drawable/basketball"
+            tools:ignore="OnClick" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="FUTSAL"
+            android:text="BOLA BASKET"
             android:textColor="#000000"
             android:textSize="25sp"
             android:textStyle="bold"
             android:gravity="center"
             android:typeface="monospace" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/karawitan"
+        android:background="@drawable/bakron">
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="130dp"
+            android:src="@drawable/gamelansatu"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="KARAWITAN"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:typeface="monospace" />
+
+    </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:id="@+id/volly"
+            android:background="@drawable/bakron">
             <ImageView
                 android:layout_width="180dp"
-                android:layout_height="150dp"
-                android:layout_marginTop="20dp"
-                android:src="@drawable/gamelan" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="KARAWITAN"
-                android:textColor="#000000"
-                android:textSize="25sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:typeface="monospace" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <ImageView
-                android:layout_width="180dp"
-                android:layout_height="150dp"
-                android:layout_marginTop="20dp"
-                android:src="@drawable/vollyball" />
+                android:layout_height="130dp"
+                android:src="@drawable/vollyball"
+                tools:ignore="OnClick" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text=""
+                android:text="VOLLY BALL"
                 android:textColor="#000000"
                 android:textSize="25sp"
                 android:textStyle="bold"
                 android:gravity="center"
                 android:typeface="monospace" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/bta"
+            android:background="@drawable/bakron">
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:src="@drawable/bta"
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="BTA"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:typeface="monospace" />
+
         </LinearLayout>
     </LinearLayout>
-    </LinearLayout>
+
 </ScrollView>

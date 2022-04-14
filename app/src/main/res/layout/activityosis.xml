@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    tools:context=".osisclick">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="180dp"
+        android:src="@drawable/osis"
+        android:id="@+id/logoosis"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/judul"
+        android:layout_below="@id/logoosis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ORGANISASI OSIS"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/sek"
+        android:layout_below="@id/judul"
+        android:text="SMPN 4 KARANGANYAR"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+        <androidx.cardview.widget.CardView
+            android:layout_below="@id/sek"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="10dp">
+            <RelativeLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bakron"
+            android:orientation="vertical"
+            android:id="@id/pengertian"/>
+
+                <TextView
+                    android:id="@+id/pengertian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pengertian OSIS"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/isi_pengertian"
+        android:text="OSIS adalah satu-satunya wadah organisasi siswa yang sah di sekolah. Oleh karena itu, setiap sekolah wajib membentuk Organisasi Siswa Intra Sekolah (OSIS) yang tidak mempunyai hubungan organisatoris dengan OSIS di sekolah lain dan tidak menjadi bagian dari organisasi lain yang ada di luar sekolah."
+        android:layout_below="@+id/pengertian"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/isi_fungsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/isi_pengertian"
+                    android:text="Fungsi osis OSIS sebagai Wadah Organisasi Siswa Intra Sekolah
+OSIS merupakan satu-satunya wadah kegiatan para siswa di sekolah, bersama dengan jalur pembinaan yang lain, untuk mendukung tercapainya pembinaan kesiswaan. OSIS menjadi wadah organisasi bagi para siswa dalam melakukan kegiatan bersama, bertukar ilmu, bertukar pikiran, dan mengeluarkan pendapat untuk mencapai tujuan dan cita-cita bersama.
+OSIS sebagai Penggerak/Motivator
+OSIS menjadi motivator yang mampu memengaruhi semangat para siswa untuk berbuat dan melakukan kegiatan bersama-sama dalam mencapai tujuan. Motivasi adalah suatu perangsang dan dorongan bagi seseorang agar dapat melakukan sesuatu yang lebih baik dan produktif, sedangkan motivator adalah subjek yang melakukan suatu dorongan tersebut.
+OSIS sebagai Pembinaan Siswa
+OSIS merupakan jalur pembinaan yang berusaha memberi bekal pengetahuan dan pengalaman kepada siswa untuk memimpin dirinya, orang lain, dan lingkungannya dalam mengikuti kegiatan sekolah dan kehidupan sosial sesuai dengan ketentuan yang telah ditetapkan untuk mencapai keberhasilan pendidikan siswa di sekolah."
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tujuan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/isi_fungsi"
+            android:text="Tujuan OSIS
+Meningkatkan generasi penerus yang beriman dan bertakwa.
+Memahami, menghargai lingkungan hidup, dan nilai-nilai moral dalam mengambil keputusan yang tepat.
+Membangun landasan kepribadian yang kuat dan menghargai HAM dalam konteks kemajuan budaya bangsa.
+Membangun, mengembangkan wawasan kebangsaan, dan rasa cinta tanah air dalam era globalisasi.
+Memperdalam sikap sportif, jujur, disiplin, bertanggung jawab, dan kerja sama secara mandiri, berpikir logis dan demokratis.
+Meningkatkan pengetahuan dan keterampilan serta menghargai karya artistik, budaya, dan intelektual.
+Meningkatkan kesehatan jasmani dan rohani, memantapkan kehidupan bermasyarakat, berbangsa, dan bernegara.
+"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+                <TextView
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:id="@+id/jadwal"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tujuan"
+                    android:text="Hari:Selasa,Jam:11.15-13.00"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</ScrollView>

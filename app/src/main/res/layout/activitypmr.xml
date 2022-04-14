@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="180dp"
+            android:src="@drawable/pmr"
+            android:id="@+id/logo"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/judul"
+            android:layout_below="@id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ORGANISASI PMR"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/sek"
+            android:layout_below="@id/judul"
+            android:text="SMPN 4 KARANGANYAR"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/pengertian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pengertian PMR"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/sek"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/isi_pengertian"
+            android:text="Palang Merah Remaja (PMR) adalah suatu organisasi binaan dari Palang Merah Indonesia yang berpusat di sekolah-sekolah ataupun kelompok-kelompok masyarakat yang bertujuan membangun dan mengembangkan karakter Kepalangmerahan agar siap menjadi Relawan PMI pada masa depan.
+PMR di SMP Negeri 4 Karanganyar termasuk dalam tingkat madya berusia antara 12 - 15 tahun."
+            android:layout_below="@+id/pengertian"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/isi_fungsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/isi_pengertian"
+            android:text="PMR Madya berfungsi sebagai peer support, yaitu memberikan dukungan, bantuan, semangat kepada teman sebaya agar meningkatkan ketrampilan hidup sehat.
+
+Setiap anggota PMR mendapatkan pelatihan sebelum terlibat dalam kegiatan Tri Bhakti PMR agar siap menjalankan peran dan fungsinya. Setiap sesi pelatihan akan menguatkan karakter anggota PMR untuk meningkatkan ketrampilan hidup sehat dan menjadi calon relawan, anggota PMR tidak hanya tahu dan trampil, tetapi juga perlu memahami dan menerapkan yang telah mereka pelajari, dalam proses pelatihan.
+
+Keterlibatan anggota PMR dalam berbagai kegiatan kepalangmerahan merupakan karya dan bakti nyata setelah mengikuti pelatihan serta pengakuan terhadap keberadaan dan kompetensi dalam meningkatkan kualitas anggota dan organisasi, serta memberikan jawaban atas berbagai minat bergabungnya remaja dengan PMI."
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tujuan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/isi_fungsi"
+            android:text="@string/tujuanpmr"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/kegiatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tujuan"
+            android:text="@string/pelaksanaa"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pmrsatu"
+            android:id="@+id/gambar"
+            android:layout_below="@id/kegiatan"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</ScrollView>

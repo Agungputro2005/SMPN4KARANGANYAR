@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="190dp"
+            android:src="@drawable/basketball"
+            android:id="@+id/logo"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/judul"
+            android:layout_below="@id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ORGANISASI BASKET"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/sek"
+            android:layout_below="@id/judul"
+            android:text="SMPN 4 KARANGANYAR"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/pengertian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pengertian Basket"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_below="@id/sek"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/isi_pengertian"
+            android:text="Bola Basket adalah cabang olah raga yang sangat diminati di kalangan remaja di seluruh penjuru dunia. Dalam memainkan Bola Basket diperlukan fisik yang kuat, cepat tanggap secara mental, dan melibatkan seluruh anggota tubuh. Permainan Bola Basket memberikan pengaruh positif pada otak untuk selalu bertindak cepat dan sigap.
+
+Di lingkungan satuan pendidikan atau sekolah, ekstra kurikuler Bola Basket selalu menjadi primadona bagi siswa. SMP Negeri 4 Karanganyar merespon fenomena ini dengan menyelenggarakan kegiatan ekstra kurikuler Bola Basket untuk mengembangkan bakat dan minat siswanya. Hingga saat ini sudah banyak kejuaraan Bola Basket di tingkat kabupaten yang berhasil diraih oleh tim basket SMP Negeri 4 Karanganyar. Hal ini tentu saja tidak lepas dari peran ekstra kurikuler Bola Basket yang dibimbing oleh guru dan pembina berkualitas di SMP Negeri 4 Karanganyar."
+            android:layout_below="@+id/pengertian"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/isi_fungsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/isi_pengertian"
+            android:text="@string/tujuanbasket"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/kegiatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/isi_fungsi"
+            android:text="@string/pelaksanabasket"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/basket"
+            android:id="@+id/gambar"
+            android:layout_below="@id/kegiatan"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</ScrollView>

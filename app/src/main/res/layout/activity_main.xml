@@ -9,33 +9,52 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="310dp"
         android:paddingTop="0dp"
         android:paddingBottom="80dp"
         android:src="@drawable/bgatas" />
-    <LinearLayout
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center|top|left"
-        android:orientation="horizontal">
+        android:gravity="center">
+
+
         <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:id="@+id/logosmp1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_marginStart="26dp"
-            android:layout_marginTop="24dp"
-            android:src="@drawable/logosmp"/>
+            android:layout_marginTop="30dp"
+            android:src="@drawable/smpn4kra_logo" />
+
         <TextView
+            android:id="@+id/JDL"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:gravity="center"
-            android:paddingRight="50dp"
+            android:layout_toEndOf="@id/logosmp1"
+
             android:text="SMPN 4 KARANGANYAR"
             android:textAllCaps="true"
             android:textColor="@color/black"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
-    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/JDL"
+            android:layout_toEndOf="@id/logosmp1"
+            android:gravity="center"
+            android:textSize="13dp"
+            android:text="Jl. Yos Sudarso No. 27 Bejen Karanganyar,Kodepos 57711,(0271) 495827,Email: smp4_kra@yahoo.com, http://.smpn4kra./.sch.id" />
+
+
+
+
+    </RelativeLayout>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -112,7 +131,7 @@
 
             <RelativeLayout
                 android:layout_width="wrap_content"
-
+                android:id="@+id/eskul"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="25dp"
                 android:background="@drawable/putro">
