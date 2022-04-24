@@ -22,27 +22,47 @@
         <activity android:name=".fasilitasactivity">
 
         </activity>
-    <activity android:name=".guruaktivity">
+        <activity android:name=".biodataclick">
 
-    </activity>
+        </activity>
         <activity android:name=".galeriactivity">
 
         </activity>
+        <activity android:name=".sejarahclick">
+        </activity>
+        <activity android:name=".profilclick">
+        </activity>
+        <activity android:name=".strukturclick">
+        </activity>
+        <activity android:name=".visimisiclick">
+        </activity>
+        <activity android:name=".osisclick">
+        </activity>
+        <activity android:name=".datasekolahclick">
+        </activity>
+        <activity android:name=".staftu">
+        </activity>
+        <activity android:name=".kepsekguruclick">
+        </activity>
+
+<activity android:name=".pmrclick"/>
+    <activity android:name=".pramukaclick"/>
+        <activity android:name=".basketclick"/>
+        <activity android:name=".karawitanclick"/>
+        <activity android:name=".voliclick"/>
+    <activity android:name=".btaclick">
+
+    </activity>
 
 
-
-        <activity android:name=".MenuActivity"
-            android:exported="true">
+        <activity android:name=".MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".osisclick"></activity>
-        <activity android:name=".pmrclick"></activity>
-        <activity android:name=".pramukaclick"></activity>
-        <activity android:name=".futsalclick"></activity>
+            </intent-filter></activity>
     </application>
+
+
 
 </manifest>

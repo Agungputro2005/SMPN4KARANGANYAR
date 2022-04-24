@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/visidanmisi"
+    tools:context=".visimisiclick">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:columnCount="1"
+        android:columnOrderPreserved="false"
+        android:rowCount="60">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VISI DAN MISI SMP NEGERI 4 KARANGANYAR"
+            android:textSize="20sp"
+            android:id="@+id/text1"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+        <ImageView
+            android:id="@+id/iv_menu"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/visimisi"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VISI"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/visi"
+            android:textSize="20sp"
+            android:id="@+id/text2"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MISI"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Melaksanakan pembiasaan sikap yang bernuasa"
+            android:textSize="18sp"
+            android:id="@+id/text3"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="iman dan taqwa."
+            android:textSize="18sp"
+            android:id="@+id/text4"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="16dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Menumbuhkan sikap disiplin dan tertib."
+            android:textSize="18sp"
+            android:id="@+id/text5"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Mewujudkan budaya 5 S (Salam, Sapa, Senyum"
+            android:textSize="18sp"
+            android:id="@+id/text6"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sopan dan Simpatik)."
+            android:textSize="18sp"
+            android:id="@+id/text7"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="16dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Mengembangkan sikap tenggang rasa dalam "
+            android:textSize="18sp"
+            android:id="@+id/text8"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kemajemukan."
+            android:textSize="18sp"
+            android:id="@+id/text9"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="16dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.Mewujudkan prestasi akademik maupun non "
+            android:textSize="18sp"
+            android:id="@+id/text10"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="akademik."
+            android:textSize="18sp"
+            android:id="@+id/text11"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="16dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.Mewujudkan prestasi seni yang membanggakan"
+            android:textSize="18sp"
+            android:id="@+id/text12"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dan kompetitif."
+            android:textSize="18sp"
+            android:id="@+id/text13"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="16dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.Terwujudnya pengembangan kurikulum yang "
+            android:textSize="18sp"
+            android:id="@+id/text14"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="adaptif dan inovatif."
+            android:textSize="18sp"
+            android:id="@+id/text15"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="16dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8.Melaksanakan pembelajaran yang aktif, inovatif, "
+            android:textSize="18sp"
+            android:id="@+id/text16"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" kreatif, efektif dan menyenangkan."
+            android:textSize="18sp"
+            android:id="@+id/text17"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="12dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9.Mewujudkan kegiatan pembelajaran skill."
+            android:textSize="18sp"
+            android:id="@+id/text18"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10.Mewujudkan sarana dan prasarana yang "
+            android:textSize="18sp"
+            android:id="@+id/text20"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" memadahi untuk proses belajar."
+            android:textSize="18sp"
+            android:id="@+id/text21"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="23dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11.Mewujudkan manajemen partisipatif,  "
+            android:textSize="18sp"
+            android:id="@+id/text22"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="transparan, akuntabel dalam setiap program."
+            android:textSize="18sp"
+            android:id="@+id/text23"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="25dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12.Mengoptimalkan TIK dalam proses  "
+            android:textSize="18sp"
+            android:id="@+id/text24"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" pembelajaran maupun manajemen sekolah."
+            android:textSize="18sp"
+            android:id="@+id/text25"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="23dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="13.Mewujudkan hubungan yang harmonis antara "
+            android:textSize="18sp"
+            android:id="@+id/text26"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pihak sekolah dengan masyarakat."
+            android:textSize="18sp"
+            android:id="@+id/text27"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="25dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="14.Mewujudkan lingkungan sekolah yang bersih,  "
+            android:textSize="18sp"
+            android:id="@+id/text28"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sejuk, nyaman dan menyenangkan."
+            android:textSize="18sp"
+            android:id="@+id/text29"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="25dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15.Mencegah terjadinya pencemaran dan "
+            android:textSize="18sp"
+            android:id="@+id/text30"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kerusakan lingkungan hidup."
+            android:textSize="18sp"
+            android:id="@+id/text31"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="25dp"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="16.Melestarikan Lingkungan yang bersih, sejuk dan  "
+            android:textSize="18sp"
+            android:id="@+id/text32"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nyaman."
+            android:textSize="18sp"
+            android:id="@+id/text33"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="25dp"/>
+
+
+
+
+
+
+    </GridLayout>
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/sejarahsekolah"
+    tools:context=".sejarahclick">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:columnCount="1"
+        android:columnOrderPreserved="false"
+        android:rowCount="60">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sejarah SMP Negeri 4 Karanganyar"
+            android:typeface="serif"
+            android:textSize="22sp"
+            android:id="@+id/text1"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+        <ImageView
+            android:id="@+id/iv_menu"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/smpnkrafoto" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sejarah"
+            android:textSize="16sp"
+            android:id="@+id/text2"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+
+    </GridLayout>
+</ScrollView>

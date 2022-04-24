@@ -14,15 +14,27 @@
         android:columnOrderPreserved="false"
         android:rowCount="60">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" FASILITAS "
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:id="@+id/teks1"/>
+
 
         <ImageView
             android:id="@+id/iv_menu"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/masjidsmp" />
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/masjidfoto" />
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="180dp"
+            android:layout_height="140dp"
             android:layout_marginTop="15sp"
             android:orientation="horizontal"
             android:id="@+id/osissatu"
@@ -32,7 +44,7 @@
             android:layout_height="wrap_content"
             android:text="@string/Masjid"
             android:typeface="serif"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textAlignment="center"
             android:id="@+id/text1"
             android:textStyle="bold"
@@ -44,10 +56,10 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_marginTop="9dp"
-        android:src="@drawable/perpustakaan2" />
+        android:src="@drawable/perpusfoto" />
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="130dp"
+            android:layout_height="120dp"
             android:layout_marginTop="15sp"
             android:orientation="horizontal"
             android:id="@+id/perpus"
@@ -57,21 +69,23 @@
                 android:layout_height="wrap_content"
                 android:text="@string/perpustakaan"
                 android:typeface="serif"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textAlignment="center"
                 android:id="@+id/text2"
                 android:textStyle="bold"
                 android:textColor="#000000"/>
         </LinearLayout>
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:src="@drawable/labkomputer"
-        android:layout_marginTop="9dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_row="0"
+            android:layout_marginTop="9dp"
+            android:src="@drawable/labkomputerfoto" />
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="250dp"
             android:layout_marginTop="15sp"
             android:orientation="horizontal"
             android:id="@+id/labkomputer"
@@ -81,7 +95,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/komputer"
                 android:typeface="serif"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textAlignment="center"
                 android:id="@+id/text4"
                 android:textStyle="bold"
@@ -92,7 +106,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/labipa"
+        android:src="@drawable/labipasatu"
         android:layout_marginTop="9dp" />
         <LinearLayout
             android:layout_width="match_parent"
@@ -106,13 +120,133 @@
                 android:layout_height="wrap_content"
                 android:text="@string/labipa"
                 android:typeface="serif"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textAlignment="center"
                 android:id="@+id/text5"
                 android:textStyle="bold"
                 android:textColor="#000000"/>
 
         </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ruangkelas" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:id="@+id/ruangkelas"
+            android:background="@drawable/bakron">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ruang_kelas_suatu_ruangan_dalam_bangunan_sekolah_yang_berfungsi_sebagai_tempat_untuk_kegiatan_tatap_muka_dalam_proses_kegiatan_belajar_mengajar_kbm_mebeler_dalam_ruangan_ini_terdiri_dari_meja_siswa_kursi_siswa_meja_guru_lemari_kelas_papan_tulis_serta_aksesoris_ruangan_lainnya_yang_sesuai"
+                android:typeface="serif"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:id="@+id/text6"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/toilet" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:id="@+id/toliet"
+            android:background="@drawable/bakron">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/toilet"
+                android:typeface="serif"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:id="@+id/text7"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/parkiran" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:id="@+id/parkiran"
+            android:background="@drawable/bakron">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/parkiran"
+                android:typeface="serif"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:id="@+id/text8"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/uksfoto" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:id="@+id/uks"
+            android:background="@drawable/bakron">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/uks"
+                android:typeface="serif"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:id="@+id/text9"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/lapanganbasket" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:id="@+id/lapangan"
+            android:background="@drawable/bakron">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lapangan"
+                android:typeface="serif"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:id="@+id/text10"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+
 
 
 

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/datasekolah"
+    tools:context=".datasekolahclick">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:columnCount="1"
+        android:columnOrderPreserved="false"
+        android:rowCount="60">
+        <RelativeLayout
+            android:layout_width="413dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/dataguru"
+            android:background="@drawable/bakron"
+            android:onClick="kepsekguruclick"
+            android:layout_marginTop="250dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DATA GURU"
+                android:typeface="serif"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:id="@+id/text1"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="413dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/tu"
+            android:background="@drawable/bakron"
+            android:onClick="staftu"
+            android:layout_marginTop="100dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STAF TU"
+                android:typeface="serif"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:id="@+id/text2"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+        </RelativeLayout>
+
+    </GridLayout>
+</ScrollView>

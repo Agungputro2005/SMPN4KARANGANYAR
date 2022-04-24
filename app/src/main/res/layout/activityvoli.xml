@@ -5,15 +5,15 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
-    tools:context=".MainActivity">
+    tools:context=".voliclick">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
         <ImageView
-            android:layout_width="120dp"
-            android:layout_height="190dp"
-            android:src="@drawable/basketball"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/vollyballdua"
             android:id="@+id/logo"
             android:layout_centerHorizontal="true"/>
         <TextView
@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="ORGANISASI BASKET"
+            android:text="VOLLY BALL"
             android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -40,7 +40,7 @@
             android:id="@+id/pengertian"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pengertian Basket"
+            android:text="Pengertian Vollyball"
             android:textColor="#000000"
             android:textSize="19sp"
             android:textStyle="bold"
@@ -49,9 +49,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/isi_pengertian"
-            android:text="Bola Basket adalah cabang olah raga yang sangat diminati di kalangan remaja di seluruh penjuru dunia. Dalam memainkan Bola Basket diperlukan fisik yang kuat, cepat tanggap secara mental, dan melibatkan seluruh anggota tubuh. Permainan Bola Basket memberikan pengaruh positif pada otak untuk selalu bertindak cepat dan sigap.
+            android:text="Ekstrakurikuler Bola Voli merupakan bagian integral dari mata pelajaran Pendidikan Jasmani Olahraga dan Kesehatan. Penyelenggaraan ekstrakurikuler Bola Voli di SMP Negeri 4 Karanganyar bertujuan untuk mengembangkan aspek kebugaran jasmani, keterampilan gerak, berpikir kritis, dan keterampilan sosial.
 
-Di lingkungan satuan pendidikan atau sekolah, ekstra kurikuler Bola Basket selalu menjadi primadona bagi siswa. SMP Negeri 4 Karanganyar merespon fenomena ini dengan menyelenggarakan kegiatan ekstra kurikuler Bola Basket untuk mengembangkan bakat dan minat siswanya. Hingga saat ini sudah banyak kejuaraan Bola Basket di tingkat kabupaten yang berhasil diraih oleh tim basket SMP Negeri 4 Karanganyar. Hal ini tentu saja tidak lepas dari peran ekstra kurikuler Bola Basket yang dibimbing oleh guru dan pembina berkualitas di SMP Negeri 4 Karanganyar."
+Ekstrakurikuler Bola Voli memiliki peran sangat penting, terutama memberikan kesempatan kepada siswa dalam pengembangan diri dan meraih prestasi di bidang non akademik."
             android:layout_below="@+id/pengertian"
             android:textColor="#000000"
             android:textSize="15sp"
@@ -62,7 +62,12 @@ Di lingkungan satuan pendidikan atau sekolah, ekstra kurikuler Bola Basket selal
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/isi_pengertian"
-            android:text="@string/tujuanbasket"
+            android:text="Tujuan Kegiatan
+Menyiapkan atlet berprestasi di tingkat kabupaten.
+Meningkatkan prestasi siswa melalui ekstrakurikuler Bola Voli.
+Mengikuti pertandingan antar pelajar tingkat kabupaten.
+Sebagai wadah bagi siswa untuk mengasah bakat.
+Sarana pengembangan diri dan prestasi non akademik."
             android:textColor="#000000"
             android:textSize="15sp"
             android:textStyle="bold" />
@@ -71,14 +76,15 @@ Di lingkungan satuan pendidikan atau sekolah, ekstra kurikuler Bola Basket selal
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/isi_fungsi"
-            android:text="@string/pelaksanabasket"
+            android:text="@string/volly"
             android:textColor="#000000"
             android:textSize="15sp"
             android:textStyle="bold"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/basket"
+            android:src="@drawable/vollyballdua"
+            android:layout_marginTop="90dp"
             android:id="@+id/gambar"
             android:layout_below="@id/kegiatan"
             android:layout_centerHorizontal="true"/>

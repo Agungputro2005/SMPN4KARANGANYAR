@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
     android:paddingBottom="10dp"
     tools:context=".ekstrakulikuleractivity">
-    <LinearLayout
+    <GridLayout
+        android:columnCount="1"
+        android:rowCount="6"
         android:layout_marginTop="2dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-    <LinearLayout
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="180dp"
+        android:layout_height="170dp"
         android:orientation="horizontal"
-        android:id="@+id/osissatu"
+        android:id="@+id/osissatuu"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="5dp"
+
+        app:cardElevation="50dp"
         android:background="@drawable/bakron">
         <ImageView
             android:id="@+id/osis"
@@ -25,162 +31,194 @@
             android:layout_height="150dp"
             android:layout_marginTop="10dp"
             android:src="@drawable/osis" />
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
         <TextView
             android:id="@+id/gbosis"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="OSIS"
+            android:layout_marginStart="70dp"
             android:textColor="#000000"
             android:textSize="25sp"
             android:textStyle="bold"
             android:typeface="monospace" />
-    </LinearLayout>
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="180dp"
-        android:id="@+id/pmr"
-        android:orientation="horizontal"
-        android:background="@drawable/bakron">
-        <ImageView
-            android:layout_width="180dp"
-            android:layout_height="150dp"
-            android:layout_marginTop="20dp"
-            android:onClick="pmrclick"
-            android:src="@drawable/pmr"
-            tools:ignore="OnClick" />
-
-        <TextView
-
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="PMR"
-            android:textColor="#000000"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:gravity="center"
-            android:typeface="monospace" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:id="@+id/pramuka"
-        android:background="@drawable/bakron">
-        <ImageView
-            android:layout_width="180dp"
-            android:layout_height="150dp"
-            android:layout_marginTop="20dp"
-            android:onClick="pramukaclick"
-            android:src="@drawable/dewanpenggalang"
-            tools:ignore="OnClick" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="PRAMUKA/IM"
-            android:textColor="#000000"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:gravity="center"
-            android:typeface="monospace" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:id="@+id/basket"
-        android:background="@drawable/bakron">
-        <ImageView
-            android:layout_width="180dp"
-            android:layout_height="130dp"
-            android:layout_marginTop="20dp"
-            android:onClick="basketclick"
-            android:src="@drawable/basketball"
-            tools:ignore="OnClick" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="BOLA BASKET"
-            android:textColor="#000000"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:gravity="center"
-            android:typeface="monospace" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:id="@+id/karawitan"
-        android:background="@drawable/bakron">
-        <ImageView
-            android:layout_width="180dp"
-            android:layout_height="130dp"
-            android:src="@drawable/gamelansatu"
-            tools:ignore="OnClick" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="KARAWITAN"
-            android:textColor="#000000"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:gravity="center"
-            android:typeface="monospace" />
-
-    </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="170dp"
             android:orientation="horizontal"
-            android:id="@+id/volly"
+            android:id="@+id/pmrsatu"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+
+            app:cardElevation="50dp"
             android:background="@drawable/bakron">
             <ImageView
+                android:id="@+id/pmrdua"
                 android:layout_width="180dp"
-                android:layout_height="130dp"
-                android:src="@drawable/vollyball"
-                tools:ignore="OnClick" />
-
-            <TextView
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/pmr"/>
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="VOLLY BALL"
-                android:textColor="#000000"
-                android:textSize="25sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:typeface="monospace" />
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/pmrtiga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="PMR"
+                    android:layout_marginStart="70dp"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
-        </LinearLayout>
-        <LinearLayout
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="170dp"
             android:orientation="horizontal"
-            android:id="@+id/bta"
+            android:id="@+id/dewansatu"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+
+            app:cardElevation="50dp"
             android:background="@drawable/bakron">
             <ImageView
+                android:id="@+id/dewandua"
                 android:layout_width="180dp"
-                android:layout_height="130dp"
-                android:src="@drawable/bta"
-                tools:ignore="OnClick" />
-
-            <TextView
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/dewanpenggalang"/>
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="BTA"
-                android:textColor="#000000"
-                android:textSize="25sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:typeface="monospace" />
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/dewantiga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/dewan_penggalang"
+                    android:layout_marginStart="70dp"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="horizontal"
+            android:id="@+id/basketsatu"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="50dp"
+            android:background="@drawable/bakron">
+            <ImageView
+                android:id="@+id/basketdua"
+                android:layout_width="180dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/basketball"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/baskettiga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="BASKET"
+                    android:layout_marginStart="70dp"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="horizontal"
+            android:id="@+id/karawitansatu"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="50dp"
+            android:background="@drawable/bakron">
+            <ImageView
+                android:id="@+id/karawitandua"
+                android:layout_width="180dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/gamelan"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/gamelantiga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="KARAWITAN"
+                    android:layout_marginStart="70dp"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="horizontal"
+            android:id="@+id/vollysatu"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="50dp"
+            android:background="@drawable/bakron">
+            <ImageView
+                android:id="@+id/vollydua"
+                android:layout_width="180dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/vollyball"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/vollytiga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="VOLLY BALL"
+                    android:layout_marginStart="70dp"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
-        </LinearLayout>
-    </LinearLayout>
+    </GridLayout>
 
 </ScrollView>

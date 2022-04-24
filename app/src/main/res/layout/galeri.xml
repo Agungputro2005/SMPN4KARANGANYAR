@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,21 +7,34 @@
     tools:context=".MainActivity">
 
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="300dp">
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" GALERI "
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:id="@+id/teks1"/>
 
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="20dp"
             android:scrollbars="none">
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
                 android:orientation="horizontal">
-
 
 
                 <RelativeLayout
@@ -44,12 +56,12 @@
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:layout_toRightOf="@id/upacara"
                     android:id="@+id/upacaradua"
                     android:layout_width="400dp"
                     android:layout_height="200dp"
                     android:layout_gravity="center"
                     android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/upacara"
                     android:background="@drawable/upacarasatu"
                     android:backgroundTint="#ACAA9A"
                     android:gravity="center">
@@ -66,10 +78,10 @@
                     android:layout_height="200dp"
                     android:layout_gravity="center"
                     android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/upacaradua"
                     android:background="@drawable/upacarasatu"
                     android:backgroundTint="#ACAA9A"
-                    android:gravity="center"
-                    android:layout_toRightOf="@id/upacaradua">
+                    android:gravity="center">
 
                     <ImageView
 
@@ -85,10 +97,10 @@
                     android:layout_height="200dp"
                     android:layout_gravity="center"
                     android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/upacaratiga"
                     android:background="@drawable/upacarasatu"
                     android:backgroundTint="#ACAA9A"
-                    android:gravity="center"
-                    android:layout_toRightOf="@id/upacaratiga">
+                    android:gravity="center">
 
                     <ImageView
                         android:id="@+id/upacaraempat"
@@ -98,18 +110,20 @@
 
                     </ImageView>
                 </LinearLayout>
+
                 <RelativeLayout
+                    android:id="@+id/osissatu"
                     android:layout_width="match_parent"
                     android:layout_height="180dp"
-                    android:orientation="horizontal"
-                    android:id="@+id/osissatu"
-                    android:background="@drawable/bakron">
+                    android:background="@drawable/bakron"
+                    android:orientation="horizontal">
+
                 </RelativeLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="300dp">
-
 
 
                 </LinearLayout>
@@ -119,30 +133,545 @@
         </HorizontalScrollView>
 
 
-    </ScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/upacarasatu"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:background="@drawable/bakron"
+                android:gravity="center"
+                android:text="@string/upacara"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:scrollbars="none">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+
+
+                    <RelativeLayout
+                        android:id="@+id/jumat_religi"
+                        android:layout_width="410dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/religi"
+                        android:backgroundTint="#ACAA9A"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/religi">
+
+                        </ImageView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/religi_dua"
+                        android:layout_width="400dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/jumat_religi"
+                        android:background="@drawable/religi"
+                        android:backgroundTint="#ACAA9A"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/religidua" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/religi_tiga"
+                        android:layout_width="400dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/religi_dua"
+                        android:background="@drawable/religitiga"
+                        android:backgroundTint="#ACAA9A"
+                        android:gravity="center">
+
+                        <ImageView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/religitiga">
+
+                        </ImageView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/religi_empat"
+                        android:layout_width="400dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/religi_tiga"
+                        android:background="@drawable/religiempat"
+                        android:backgroundTint="#ACAA9A"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/religilima">
+
+                        </ImageView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/jumatreligi_lima"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_toRightOf="@+id/religi_empat"
+                        android:background="@drawable/bakron"
+                        android:orientation="horizontal">
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="00dp">
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </HorizontalScrollView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/jumatreligiempat"
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:background="@drawable/bakron"
+                    android:text="@string/religi"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+
+            <RelativeLayout
+                android:id="@+id/literasi"
+                android:layout_width="410dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/literasi"
+                android:backgroundTint="#ACAA9A"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/literasi">
+
+                </ImageView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/literasidua"
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/literasi"
+                android:background="@drawable/religi"
+                android:backgroundTint="#ACAA9A"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/literasidua" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/literasitiga"
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/literasidua"
+                android:background="@drawable/religitiga"
+                android:backgroundTint="#ACAA9A"
+                android:gravity="center">
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/literasitiga">
+
+                </ImageView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/literasiempat"
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/literasitiga"
+                android:background="@drawable/literasiempat"
+                android:backgroundTint="#ACAA9A"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/literasienam">
+
+                </ImageView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/literasilima"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_toRightOf="@+id/literasiempat"
+                android:background="@drawable/bakron"
+                android:orientation="horizontal">
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="00dp">
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </HorizontalScrollView>
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="100dp">
 
         <TextView
-            android:id="@+id/gbosis"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="480dp"
+            android:background="@drawable/bakron"
+            android:text="@string/literasi"
             android:gravity="center"
-            android:text="@string/upacara"
             android:textColor="#000000"
             android:textSize="12sp"
             android:textStyle="bold"
-            android:typeface="monospace"
-            android:background="@drawable/bakron"/>
+            android:typeface="monospace" />
 
     </LinearLayout>
 
+<HorizontalScrollView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:scrollbars="none">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="horizontal">
 
 
+    <RelativeLayout
+        android:id="@+id/sehat"
+        android:layout_width="410dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/sehat"
+        android:backgroundTint="#ACAA9A"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/sehat">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sehatdua"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/sehat"
+        android:background="@drawable/sehat"
+        android:backgroundTint="#ACAA9A"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/sehatdua" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sehattiga"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/sehatdua"
+        android:background="@drawable/sehattiga"
+        android:backgroundTint="#ACAA9A"
+        android:gravity="center">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/sehattiga">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sehatempat"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/sehattiga"
+        android:background="@drawable/sehatempat"
+        android:backgroundTint="#ACAA9A"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/sehatenam">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sehatlima"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_toRightOf="@+id/sehatempat"
+        android:background="@drawable/bakron"
+        android:orientation="horizontal">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="00dp">
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+</HorizontalScrollView>
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="50dp"
+android:orientation="vertical"
+android:layout_marginBottom="100dp">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="580dp"
+    android:background="@drawable/bakron"
+    android:text="@string/sehat"
+    android:gravity="center"
+    android:textColor="#000000"
+    android:textSize="12sp"
+    android:textStyle="bold"
+    android:typeface="monospace" />
 
 </LinearLayout>
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout
+                    android:id="@+id/bersih"
+                    android:layout_width="410dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bersih"
+                    android:backgroundTint="#ACAA9A"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/bersih">
+
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/bersihdua"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/bersih"
+                    android:background="@drawable/bersih"
+                    android:backgroundTint="#ACAA9A"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/bersihdua" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/bersihtiga"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/bersihdua"
+                    android:background="@drawable/bersihtiga"
+                    android:backgroundTint="#ACAA9A"
+                    android:gravity="center">
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/bersihtiga">
+
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/bersihempat"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/bersihtiga"
+                    android:background="@drawable/bersihempat"
+                    android:backgroundTint="#ACAA9A"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/bersihenam">
+
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/bersihlima"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_toRightOf="@+id/bersihempat"
+                    android:background="@drawable/bakron"
+                    android:orientation="horizontal">
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="00dp">
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </HorizontalScrollView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="100dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="580dp"
+                android:background="@drawable/bakron"
+                android:text="@string/bersih"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+
 
 

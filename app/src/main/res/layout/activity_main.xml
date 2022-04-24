@@ -35,7 +35,6 @@
             android:layout_marginTop="50dp"
             android:gravity="center"
             android:layout_toEndOf="@id/logosmp1"
-
             android:text="SMPN 4 KARANGANYAR"
             android:textAllCaps="true"
             android:textColor="@color/black"

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
-    tools:context=".pramukaclick">
+    tools:context=".karawitanclick">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -13,7 +13,7 @@
         <ImageView
             android:layout_width="120dp"
             android:layout_height="190dp"
-            android:src="@drawable/dewanpenggalang"
+            android:src="@drawable/gamelansatu"
             android:id="@+id/logo"
             android:layout_centerHorizontal="true"/>
         <TextView
@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="ORGANISASI DEWAN PENGGALANG"
+            android:text="KARAWITAN"
             android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -40,7 +40,7 @@
             android:id="@+id/pengertian"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pengertian DEWAN PENGGALANG"
+            android:text="Pengertian Karawitan"
             android:textColor="#000000"
             android:textSize="19sp"
             android:textStyle="bold"
@@ -49,7 +49,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/isi_pengertian"
-            android:text="Pramuka dalam Kurikulum 2013 ditetapkan sebagai kegiatan ekstrakurikuler wajib. Hal ini mengandung makna bahwa pramuka merupakan kegiatan ekstrakurikuler yang secara sistemik berperan sebagai wahana penguatan psikologis-sosial-kultural (reinfocement) dari perwujudan sikap dan keterampilan Kurikulum 2013 yang secara psikopedagogis sesuai dengan pengembangan sikap dan kecakapan dalam pendidikan kepramukaan. Dengan demikian pencapaian Kompetensi Inti Sikap Spiritual (KI-1), Sikap Sosial (KI-2), dan Keterampilan memperoleh penguatan bermakna (meaningfull learning) melalui fasilitasi sistemik-adaptif pendidikan kepramukaan di lingkungan satuan pendidikan."
+            android:text="Karawitan adalah salah satu ekstra kurikuler pilihan sebagai sarana untuk mengembangkan bakat dan minat siswa terhadap warisan budaya nasional yang adi luhung. Seni karawitan merupakan salah satu cabang seni yang sangat perlu dikenalkan terhadap siswa, karena akan menambah wawasan siswa terhadap seni tradisional yang pada dewasa ini dirasa agak tergusur oleh seni-seni yang bersifat lebih kontemporer/masakini. Maka dari itu untuk mengenalkan dan memberikan wawasan tentang seni karawitan perlu diadakan kegiatan di luar kegiatan intra sekolah dikarenakan untuk mengembangkan bakat siswa tidak cukup apabila diberikan pada jam pelajaran efektif / intra."
             android:layout_below="@+id/pengertian"
             android:textColor="#000000"
             android:textSize="15sp"
@@ -60,7 +60,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/isi_pengertian"
-            android:text="Untuk mencapai tujuan tersebut, dilakukan kegiatan-kegiatan di lingkungan sekolah (intramural) dan di luar sekolah (ekstramural) sebagai upaya memperkuat proses pembentukan karakter bangsa yang berbudi pekerti luhur sesuai dengan nilai dan moral Pancasila. Pendidikan Kepramukaan dinilai sangat penting, karena akan menumbuhkan rasa memiliki, saling tolong menolong, mencintai tanah air dan alam. Karenanya Kementerian Pendidikan dan Kebudayaan mewajibkan setiap sekolah melaksanakan ekstrakurikuler pendidikan kepramukaan."
+            android:text="Tujuan:Memberikan pelatihan pada siswa agar dapat melakukan berbagai praktik karawitan sehingga dapat menambah ketrampilan dalam berolah seni karawitan.
+Memberikan kesempatan pada siswa mengembangkan kreatifitas dibidang seni karawitan.
+Memberikan pembinaan pada siswa untuk menumbuhkan rasa cinta, dan merasa memiliki terhadap seni tradisi."
             android:textColor="#000000"
             android:textSize="15sp"
             android:textStyle="bold" />
@@ -69,14 +71,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/isi_fungsi"
-            android:text="@string/pelaksanapramuka"
+            android:text="@string/pelaksanaankarawitan"
             android:textColor="#000000"
             android:textSize="15sp"
             android:textStyle="bold"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/dp"
+            android:src="@drawable/fotokarawitan"
             android:id="@+id/gambar"
             android:layout_below="@id/kegiatan"
             android:layout_centerHorizontal="true"/>

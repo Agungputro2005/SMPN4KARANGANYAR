@@ -21,7 +21,7 @@ public class osisclick extends AppCompatActivity {
 
         iv = findViewById(R.id.logoosis);
         judul = findViewById(R.id.judul);
-        pengertian = findViewById(R.id.pengertian);
+
         pengertiaisi = findViewById(R.id.isi_pengertian);
         fungsi = findViewById(R.id.isi_fungsi);
         tujuan = findViewById(R.id.tujuan);
