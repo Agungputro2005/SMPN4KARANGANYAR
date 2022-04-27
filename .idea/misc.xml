@@ -8,7 +8,7 @@
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/drawable/bgatas.xml" value="0.177" />
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/drawable/ekstrakulikuler.xml" value="0.1945" />
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/drawable/putro.xml" value="0.1945" />
-        <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/activity_menu.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/activitybta.xml" value="0.18" />
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/activityfutsal.xml" value="0.17074275362318841" />
@@ -18,7 +18,7 @@
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/activitypramuka.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/activityvoli.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/asetdaniventaris.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/biodatakepalasekolah.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/biodatakepalasekolah.xml" value="0.25" />
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/dataguru.xml" value="0.1615828524319868" />
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/datasekolah.xml" value="0.25" />
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/ekstrakulikuler.xml" value="0.18" />
@@ -27,14 +27,16 @@
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/fasilitas.xml" value="0.1" />
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/galeri.xml" value="0.17907720420283235" />
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/gurudanstaf.xml" value="0.10208333333333333" />
+        <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/informasi.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/kepalasekolahdanguru.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/mainactivity.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/ppdb.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/profil.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/provilsekolah.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/sejarahasekolah.xml" value="0.19807983830217282" />
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/staftu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/strukturorganisasi.xml" value="0.22" />
-        <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/visidanmisi.xml" value="0.3247721623860812" />
+        <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/layout/visidanmisi.xml" value="0.31561996779388085" />
         <entry key="..\:/Users/AGUNG/AndroidStudioProjects/SMPN4KARANGANYAR/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1795" />
       </map>
     </option>

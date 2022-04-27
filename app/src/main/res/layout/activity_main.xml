@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <ImageView
         android:layout_width="match_parent"
@@ -47,7 +51,7 @@
             android:layout_toEndOf="@id/logosmp1"
             android:gravity="center"
             android:textSize="13dp"
-            android:text="Jl. Yos Sudarso No. 27 Bejen Karanganyar,Kodepos 57711,(0271) 495827,Email: smp4_kra@yahoo.com, http://.smpn4kra./.sch.id" />
+            android:text="Jl. Yos Sudarso No. 27 Bejen Karanganyar, Kodepos 57716,(0271) 495827,Email: smp4_kra@yahoo.com,                                                         http://.smpn4kra./.sch.id" />
 
 
 
@@ -158,6 +162,37 @@
                     android:textStyle="bold" />
             </RelativeLayout>
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/informasi"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/putro">
+
+                <ImageView
+                    android:id="@+id/informasisatu"
+                    android:layout_width="145dp"
+                    android:layout_height="125dp"
+                    android:onClick="informasiclick"
+                    android:paddingBottom="25dp"
+                    android:src="@drawable/information" />
+
+                <TextView
+                    android:id="@+id/informasidua"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignLeft="@+id/informasisatu"
+                    android:layout_alignTop="@+id/informasisatu"
+                    android:layout_alignRight="@+id/informasisatu"
+                    android:layout_alignBottom="@+id/informasisatu"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center"
+                    android:text="Informasi"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
 
         </LinearLayout>
 
@@ -230,7 +265,40 @@
                     android:textStyle="bold" />
             </RelativeLayout>
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/putro">
+
+                <ImageView
+                    android:id="@+id/gbr5"
+                    android:layout_width="145dp"
+                    android:layout_height="125dp"
+                    android:onClick="ppdbclick"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="29dp"
+                    android:src="@drawable/ppdb" />
+
+                <TextView
+                    android:id="@+id/ppdb"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignLeft="@+id/gbr5"
+                    android:layout_alignTop="@+id/gbr5"
+                    android:layout_alignRight="@+id/gbr5"
+                    android:layout_alignBottom="@+id/gbr5"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center"
+                    android:text="PPDB"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
 
         </LinearLayout>
     </RelativeLayout>
-</RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

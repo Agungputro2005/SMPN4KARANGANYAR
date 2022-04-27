@@ -41,5 +41,12 @@ public class MainActivity extends Activity {
     }public void visimisiclick(View view){
         Intent intent = new Intent(MainActivity.this,visimisiclick.class);
         startActivity(intent);
+    }public void ppdbclick(View view){
+        Intent intent = new Intent(MainActivity.this,ppdbclick.class);
+        startActivity(intent);
+    }public void informasiclick(View view){
+        Intent intent = new Intent(MainActivity.this,informasiclick.class);
+        startActivity(intent);
+
     }
 }

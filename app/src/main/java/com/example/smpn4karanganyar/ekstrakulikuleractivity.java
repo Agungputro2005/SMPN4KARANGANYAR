@@ -14,7 +14,7 @@ public class ekstrakulikuleractivity extends Activity {
     String judul[], pengertian[], fungsi[], tujuan[], jadwal[];
     int image[] = {R.drawable.osis, R.drawable.pmr, R.drawable.dewanpenggalang, R.drawable.basket,
             R.drawable.gamelansatu, R.drawable.vollyball, R.drawable.bta};
-    LinearLayout osis, pmr, pramuka, basket, karawitan, voli, bta;
+     CardView osis, pmr, pramuka, basket, karawitan, voli, bta;
     CardView osis1;
 
     @Override
@@ -37,6 +37,7 @@ public class ekstrakulikuleractivity extends Activity {
         basket = findViewById(R.id.basketsatu);
         karawitan = findViewById(R.id.karawitansatu);
         voli = findViewById(R.id.vollysatu);
+        bta = findViewById(R.id.btasatu);
 
 
         osis1.setOnClickListener(new View.OnClickListener() {
@@ -118,13 +119,21 @@ public class ekstrakulikuleractivity extends Activity {
 //
             }
         });
-//        bta.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
+        bta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+        Intent in = new Intent(ekstrakulikuleractivity.this, btaclick.class);
+//                in.putExtra("judul", judul[2]);
+//                in.putExtra("pengertian", pengertian[2]);
+//                in.putExtra("fungsi", fungsi[2]);
+//                in.putExtra("tujuan", tujuan[2]);
+//                in.putExtra("jadwal", jadwal[2]);
+//                in.putExtra("gbr", image[2]);
+        startActivity(in);
 
 //
-//            }
-//        })
+            }
+        });
 //            }
 
 

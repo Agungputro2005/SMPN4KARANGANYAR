@@ -28,6 +28,10 @@
         <activity android:name=".galeriactivity">
 
         </activity>
+        <activity android:name=".ppdbclick">
+        </activity>
+        <activity android:name=".informasiclick">
+        </activity>
         <activity android:name=".sejarahclick">
         </activity>
         <activity android:name=".profilclick">
