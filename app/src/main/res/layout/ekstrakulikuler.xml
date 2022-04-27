@@ -10,7 +10,7 @@
     tools:context=".ekstrakulikuleractivity">
     <GridLayout
         android:columnCount="1"
-        android:rowCount="6"
+        android:rowCount="7"
         android:layout_marginTop="2dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -57,7 +57,6 @@
             android:id="@+id/pmrsatu"
             android:layout_margin="5dp"
             app:cardCornerRadius="5dp"
-
             app:cardElevation="50dp"
             android:background="@drawable/bakron">
             <ImageView
@@ -211,6 +210,38 @@
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="VOLLY BALL"
+                    android:layout_marginStart="70dp"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:id="@+id/btasatu"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="50dp"
+            android:background="@drawable/bakron">
+            <ImageView
+                android:id="@+id/btadua"
+                android:layout_width="180dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/gambarbta" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/btatiga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="BTA"
                     android:layout_marginStart="70dp"
                     android:textColor="#000000"
                     android:textSize="25sp"

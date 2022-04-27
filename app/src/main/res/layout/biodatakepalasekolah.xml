@@ -32,11 +32,338 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/biodata"
+            android:text="1. Nama	   :	Dra. Endang Wuryandari, M.Pd."
             android:typeface="serif"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:id="@+id/text2"
             android:textStyle="bold"
+            android:layout_marginTop="14dp"
             android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. NIP	        : 19621220 xxxxxx x xxx"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text3"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. NUPTK	 :	xxxxxxxxxxxxxx"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text4"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pangkat"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text5"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Golongan : Pembina Tk. I, IV/b"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text28"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ttl"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text6"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir : Sragen , 20 Desember 1962"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text29"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:textColor="#000000"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. TMT CPNS	:	1 Maret 19xx"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text7"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Riwayat Pendidikan : "
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text8"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a. SD N Trobayan Kalijambe, Sragen"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text9"
+            android:textStyle="bold"
+            android:layout_marginStart="21dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b. SMP Kalijambe, Sragen"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text10"
+            android:textStyle="bold"
+            android:layout_marginStart="21dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c. SPG Muh. Gemolong, Sragen"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text11"
+            android:textStyle="bold"
+            android:layout_marginStart="21dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d. D2 UNS"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text12"
+            android:textStyle="bold"
+            android:layout_marginStart="21dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="e. S1 IKIP Jakarta"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text13"
+            android:textStyle="bold"
+            android:layout_marginStart="21dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="f.S2 UMS"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text14"
+            android:textStyle="bold"
+            android:layout_marginStart="21dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. TMT Kepala Sekolah	:	11 April 2008 "
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text15"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9. Diklat Kepala Sekolah yang pernah  "
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text16"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="diikuti :"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text30"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a. Diklat Penguatan KS oleh LPPKS"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text17"
+            android:textStyle="bold"
+            android:layout_marginStart="21dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10. Riwayat tugas sebagai Kepala Sekolah :"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text18"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a. Kepala SMP N 2 Tawangmangu, tahun "
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text19"
+            android:textStyle="bold"
+            android:layout_marginStart="30dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 2008"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text20"
+            android:textStyle="bold"
+            android:layout_marginStart="45dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b. Kepala SMP N 2 Jumantono, tahun 2011 "
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text21"
+            android:textStyle="bold"
+            android:layout_marginStart="30dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c. Kepala SMP N 2 Jaten, tahun 2015 "
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text22"
+            android:textStyle="bold"
+            android:layout_marginStart="30dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d. Kepala SMP N 1 Gondangrejo, tahun "
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text23"
+            android:textStyle="bold"
+            android:layout_marginStart="30dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 2019"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text24"
+            android:textStyle="bold"
+            android:layout_marginStart="45dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="e. Kepala SMP N 4 Karanganyar, tahun  "
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text25"
+            android:textStyle="bold"
+            android:layout_marginStart="30dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 2021"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text26"
+            android:textStyle="bold"
+            android:layout_marginStart="45dp"
+            android:textColor="#000000"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 11. Prestasi yang pernah diraih sebagai  "
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text27"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Kepala Sekolah : a. "
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:id="@+id/text31"
+            android:textStyle="bold"
+            android:layout_marginStart="28dp"
+            android:textColor="#000000"/>
+
+
+
+
+
+
+
+
     </GridLayout>
 </ScrollView>
